@@ -122,5 +122,5 @@ Colorectal cancer is one of the leading causes of cancer deaths worldwide. Early
 -- Submit PR with performance metrics
 
 ## 📬 Contact
--- Author: Dr. Emily Godfrey
--- Email: mathematiciangodfrey@outlook.com
+--Author: Dr. Emily Godfrey
+--Email: mathematiciangodfrey@outlook.com
