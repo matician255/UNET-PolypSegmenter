@@ -27,17 +27,17 @@ A lightweight yet powerful implementation of UNet for precise polyp segmentation
 - **GPU/TPU Compatible**: Full TensorFlow 2.x integration
 
 ## 🧰 Tech Stack
--- Python 3.x
+- Python 3.x
 
--- TensorFlow & Keras
+- TensorFlow & Keras
 
--- NumPy, OpenCV
+- NumPy, OpenCV
 
--- Matplotlib, TQDM
+- Matplotlib, TQDM
 
--- Pycharm IDE
+- Pycharm IDE
 
--- Git & GitHub
+- Git & GitHub
 
 ## 📊 Evaluation Metrics  
 |Metric	   |Description|
@@ -103,24 +103,24 @@ Decoder: Upsamples features to reconstruct the segmentation mask
 Skip Connections: Help retain spatial information from the encoder
 
 ## 📌 Future Improvements
--- Add support for real-time video segmentation
+- Add support for real-time video segmentation
 
--- Integrate with clinical decision systems
+- Integrate with clinical decision systems
 
--- Try more advanced architectures like U-Net++ or DeepLabV3+
+- Try more advanced architectures like U-Net++ or DeepLabV3+
 
--- Deploy with Streamlit or Flask for live inference
+- Deploy with Streamlit or Flask for live inference
 
 ## 👨‍⚕️ Why This Project Matters
 Colorectal cancer is one of the leading causes of cancer deaths worldwide. Early detection of polyps can save lives. This project explores how deep learning can support medical professionals in this crucial task by reducing manual workload and improving accuracy.
 
 ## 🤝 How to Contribute
--- Fork the repository
+- Fork the repository
 
--- Add your improvement (augmentations/loss functions)
+- Add your improvement (augmentations/loss functions)
 
--- Submit PR with performance metrics
+- Submit PR with performance metrics
 
 ## 📬 Contact
---Author: Dr. Emily Godfrey
---Email: mathematiciangodfrey@outlook.com
+- Author: Dr. Emily Godfrey
+- Email: mathematiciangodfrey@outlook.com
