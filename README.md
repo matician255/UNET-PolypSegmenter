@@ -1,4 +1,4 @@
-*# U-Net for Polyp Segmentation in Colonoscopy Images*
+# *U-Net for Polyp Segmentation in Colonoscopy Images*  
 Medical imaging meets deep learning — this project implements a U-Net-based semantic segmentation model to automatically detect and segment colorectal polyps in colonoscopy images. Accurate segmentation can assist doctors in early diagnosis, treatment planning, and reduce the chances of missed polyps.
 ![Sample Segmentation Output](demo/output_sample.png) *(example visualization)*
 🧬 Sample Results
