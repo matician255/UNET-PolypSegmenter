@@ -26,7 +26,7 @@ A lightweight yet powerful implementation of UNet for precise polyp segmentation
 - **Recruiter-Friendly**: Clean OOP structure following ML best practices
 - **GPU/TPU Compatible**: Full TensorFlow 2.x integration
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 -- Python 3.x
 
 -- TensorFlow & Keras
@@ -39,8 +39,9 @@ A lightweight yet powerful implementation of UNet for precise polyp segmentation
 
 -- Git & GitHub
 
-📊 Evaluation Metrics
+## 📊 Evaluation Metrics  
 |Metric	   |Description|
+|---------|-------------|
 |Accuracy	|Overall pixel-wise accuracy|
 |Precision|	Polyp prediction accuracy|
 |Recall   |	Sensitivity to true polyp regions|
@@ -69,18 +70,27 @@ python train.py
 # Predict with your data
 python predict.py
 ```
-
+```bash
 unet/
 │
 ├── CVC-ClinicDB/         # Dataset (images & masks)
-├── model/                # Trained model (.h5)
-├── results/              # Segmentation output images
+│   ├── images/           # Original colonoscopy images
+│   └── masks/            # Ground truth segmentation masks
+│
+├── model/                # Trained models
+│   └── best_model.h5     # Pretrained weights
+│
+├── results/              # Output samples
+│   ├── predictions/      # Model predictions
+│   └── comparisons/      # Input vs Prediction comparisons
+│
 ├── unet.py               # U-Net model definition
 ├── train.py              # Training script
-├── predict.py            # Inference on test images
-├── utils.py              # Data loading and preprocessing
-├── requirements.txt      
-└── README.md
+├── predict.py            # Inference script
+├── utils.py              # Data utilities
+├── requirements.txt      # Dependencies
+└── README.md             # This file
+```
 
 
 ## 🤖 Model Architecture
